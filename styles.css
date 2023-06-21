@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fffbfb;
+    font-family: Poppins, 'sans-serif';
+    color: #2c826c;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 70px;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2c826c;
+    font-size: 16px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #cce0c4;
+    border-radius: 5px;
+}
+
+nav ul li a.active {
+    background-color: #cce0c4;
+    border-radius: 5px;
+}
+
+.box-items {
+    display: flex;
+    justify-content: center;
+}
+
+.banner1 {
+    padding-left: 200px;
+    width: 400px;
+}
+
+section {
+    padding: 50px;
+}
+
+#hero {
+    text-align: center;
+}
+
+.hero-content {
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+#about {
+
+}
+
+#services {
+
+}
+
+form input,
+form textarea {
+    width: 350px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #2c826c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+footer {
+    bottom: 0;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 80px;
+}
